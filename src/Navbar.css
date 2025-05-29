@@ -11,7 +11,9 @@
 
 ul{
     width: 100%;
+    
     display: flex;
+    column-gap: 8px;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -19,7 +21,6 @@ ul{
 
 li{
     color: rgba(255, 255, 255, 0.64);
- 
     border-radius: 10px;
     list-style: none;
     cursor: pointer;

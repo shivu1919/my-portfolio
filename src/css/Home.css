@@ -1,13 +1,36 @@
 #main-home-first{
     padding: 20px;
+    display: flex;
+    column-gap: 22px;
 }
 
 #my-pic{
+    padding: 12px;
     border-radius: 20px;
     display: flex;
+    flex-wrap: wrap;
+    column-gap: 8px;
+    row-gap: 15px;
     align-items: center;
     justify-content: center;
-    width: 360px;
+    width: fit-content;
     height: 300px;
-    background-color: #0F0F0F;
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+}
+
+#my-name{
+    
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    background-color: transparent;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+@media screen and (max-width:750px) {
+    #my-pic{
+        height: fit-content;
+    }
 }
