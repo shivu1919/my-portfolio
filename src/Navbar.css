@@ -1,7 +1,7 @@
 #nav{
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     padding: 50px;
     column-gap: 30px;
     font-size: 20px;
@@ -59,33 +59,4 @@ li{
     font-weight: 600;
 }
 
-@media screen and (max-width:800px) {
-    #menu {
-        display: block;
-    }
 
-    #sub-nav {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 80px;
-        left: 0;
-        width: 100%;
-        background-color: #111;
-        z-index: 10;
-    }
-
-    #sub-nav.show {
-        display: flex;
-    }
-
-    #sub-nav ul {
-        flex-direction: column;
-    }
-
-    #sub-nav li {
-        text-align: center;
-        width: 100%;
-        padding: 15px 0;
-    }
-}
