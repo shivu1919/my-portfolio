@@ -11,14 +11,14 @@ const Navbar = () => {
 
   return (
     <div id="nav">
-      <div id="sub-nav" className={menuVisible ? 'show' : ''}>
+     
         <ul>
           <li><Link className="link-tag" to="/" onClick={() => setMenuVisible(false)}>Home</Link></li>
           <li><Link className="link-tag" to="/about" onClick={() => setMenuVisible(false)}>About</Link></li>
           <li><Link className="link-tag" to="/services" onClick={() => setMenuVisible(false)}>Services</Link></li>
           <li><Link className="link-tag" to="/contact" onClick={() => setMenuVisible(false)}>Contact</Link></li>
         </ul>
-      </div>
+     
 
 
     </div>
