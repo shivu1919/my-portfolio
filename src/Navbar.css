@@ -5,13 +5,14 @@
     justify-content: center;
     padding: 25px;
     font-size: 20px;
+    border-bottom: 0.4px solid white;
+    position: fixed;
+    width: 100%;
 }
 
 
-
 ul{
-    width: 100%;
-    
+    width: 100%;    
     display: flex;
     column-gap: 8px;
     flex-wrap: wrap;
@@ -46,4 +47,10 @@ li{
     font-weight: 600;
 }
 
+
+@media screen and (max-width:750px){
+    #nav{
+        font-size: 16px;
+    }
+}
 

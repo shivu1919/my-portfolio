@@ -1,7 +1,11 @@
 #main-home-first{
     padding: 20px;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     column-gap: 22px;
+    row-gap: 10px;
 }
 
 #my-pic{
@@ -10,12 +14,13 @@
     display: flex;
     flex-wrap: wrap;
     column-gap: 8px;
+    border: 0.8px solid white;
     row-gap: 15px;
     align-items: center;
     justify-content: center;
     width: fit-content;
     height: 300px;
-    background: linear-gradient(120deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.05));
+    background-color:  rgba(255, 255, 255, 0.13);
 }
 
 #my-name{
@@ -28,9 +33,62 @@
     justify-content: space-around;
 }
 
+#my-pages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+}
+
+#marquee-text{
+    height: 45px;
+    width: 500px;
+    border: 0.8px solid white;
+    background-color:  rgba(255, 255, 255, 0.13);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+marquee{
+    background-color: transparent;
+    font-size: 20px;
+    color:white;
+}
+
+#my-about-page{
+    height: 230px;
+    width: 250px;
+    border-radius: 20px;
+    border: 0.8px solid white;
+    background-color:  rgba(255, 255, 255, 0.13);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#my-services-page{
+    height: 230px;
+    width: 250px;
+    border-radius: 20px;
+    border: 0.8px solid white;
+    background-color:  rgba(255, 255, 255, 0.13);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 
 @media screen and (max-width:750px) {
     #my-pic{
         height: fit-content;
+    }
+
+    #marquee-text{
+        display: none;
     }
 }
