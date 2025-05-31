@@ -66,10 +66,10 @@ function Home() {
                   </div>
 
                   <div id='home-social-links'>
-                      <img src="/github.png" alt="" width="64" style={{backgroundColor:"transparent"}}/>
-                      <img src="linkedin.png" alt="" width="64" style={{backgroundColor:"transparent"}}/>
-                      <img src="instagram.png" alt="" width="64" style={{backgroundColor:"transparent"}}/>
-                      <img src="whatsapp.png" alt="" width="64" style={{backgroundColor:"transparent"}}/>
+                      <img src="/github.png" alt="" width="62" style={{backgroundColor:"transparent"}}/>
+                      <img src="linkedin.png" alt="" width="62" style={{backgroundColor:"transparent"}}/>
+                      <img src="instagram.png" alt="" width="62" style={{backgroundColor:"transparent"}}/>
+                      <img src="whatsapp.png" alt="" width="62" style={{backgroundColor:"transparent"}}/>
                   </div>
             </div>
         </div>
