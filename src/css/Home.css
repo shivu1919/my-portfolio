@@ -1,4 +1,4 @@
-#main-home-first{
+#main-home-first, #main-home-second{
     padding: 20px;
     display: flex;
     align-items: center;
@@ -81,6 +81,50 @@ marquee{
     align-items: center;
     justify-content: center;
 }
+
+ #main-home-second{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 22px;
+    row-gap: 10px;
+}
+
+
+#my-home-stats{
+    height: fit-content;
+    width: fit-content;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: center;
+    padding: 30px;
+    border: 0.8px solid white;
+    border-radius: 12px;
+    background-color:  rgba(255, 255, 255, 0.13);
+}
+
+
+#home-social-links{
+    height: 160px;
+    width: fit-content;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: center;
+    padding: 30px;
+    border: 0.8px solid white;
+    border-radius: 12px;
+    background-color:  rgba(255, 255, 255, 0.13);
+}
+
+
 
 
 @media screen and (max-width:750px) {
