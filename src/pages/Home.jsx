@@ -1,7 +1,9 @@
 import React from 'react'
 import '../css/Home.css'
 
+
 function Home() {
+    
   return (
     <>
         <div className='main-home'>
@@ -66,11 +68,15 @@ function Home() {
                   </div>
 
                   <div id='home-social-links'>
-                      <img src="/github.png" alt="" width="62" style={{backgroundColor:"transparent"}}/>
-                      <img src="linkedin.png" alt="" width="62" style={{backgroundColor:"transparent"}}/>
-                      <img src="instagram.png" alt="" width="62" style={{backgroundColor:"transparent"}}/>
-                      <img src="whatsapp.png" alt="" width="62" style={{backgroundColor:"transparent"}}/>
-                  </div>
+                      <p style={{fontSize:"18px",fontWeight:"700",textDecoration:"underline",color:"white",backgroundColor:"transparent"}}>Connect with me</p>
+                      <div id='home-social-link'>
+                        <img onClick={()=>{window.open("https://github.com/shivu1919", "_blank")}} src="/github.png" alt="" width="58" style={{backgroundColor:"transparent", cursor:"pointer"}}/>
+                        <img onClick={()=>{window.open("https://www.linkedin.com/in/shivam1919/")}} src="linkedin.png" alt="" width="58" style={{backgroundColor:"transparent", cursor:"pointer"}}/>
+                        <img onClick={()=>{window.open("https://instagram.com/_imshivam.01")}} src="instagram.png" alt="" width="58" style={{backgroundColor:"transparent", cursor:"pointer"}}/>
+                        <img onClick={()=>{window.open("https://wa.me/8630444460")}} src="whatsapp.png" alt="" width="58" style={{backgroundColor:"transparent", cursor:"pointer"}}/>
+                        </div>
+                      </div>
+                      
             </div>
         </div>
     </>
