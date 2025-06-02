@@ -31,6 +31,39 @@ function About() {
               </div>
             </div>
 
+            <div id="about-second">
+                <div>
+                  <h1 style={{background:"transparent",color:"white"}}>Experience</h1>
+                </div>
+
+                <div style={{display:"flex",alignItems:"center",justifyContent:"center",flexWrap:"wrap",rowGap:"10px",columnGap:"10px"}}>
+                <div style={{border:"0.8px solid white",width:"385px",height:"142px",padding:"20px",color:"white"}}>
+                    <h1>Co-founder & CEO</h1>
+                    <h2>AbhyaasIndia</h2>
+                    <p>Oct 2021 - Present</p>
+                </div>
+
+                <div style={{border:"0.8px solid white",width:"385px",height:"142px",padding:"20px",color:"white"}}>
+                    <h1>Senior Software Engineer</h1>
+                    <h2>ThingMZing Zee(Group)</h2>
+                    <p>Oct 2021 - May 2022</p>
+                </div>
+
+                <div style={{border:"0.8px solid white",width:"385px",height:"142px",padding:"20px",color:"white"}}>
+                    <h1>Sofware Engineer</h1>
+                    <h2>Channel 176</h2>
+                    <p>Oct 2020 - sept 2021</p>
+                </div>
+                <div style={{border:"0.8px solid white",width:"385px",height:"142px",padding:"20px",color:"white"}}>
+                    <h1>Web development Intern</h1>
+                    <h2>Ekart</h2>
+                    <p>Mar 2020 - September 2020</p>
+                </div>   
+
+                </div>
+
+           
+            </div>
 
         </div>
     </>
