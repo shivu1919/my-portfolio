@@ -1,8 +1,10 @@
 import React from 'react'
 import '../css/Home.css'
-
+import {useNavigate} from "react-router-dom"
 
 function Home() {
+
+  const navigate = useNavigate()
     
   return (
     <>
@@ -31,7 +33,7 @@ function Home() {
 
                             <div style={{backgroundColor:"transparent",display:"flex", alignItems:"center",justifyContent:"center",columnGap:"10px"}}>
                               <p style={{backgroundColor:"transparent",color:"white",fontSize:"20px"}}>More about me</p>
-                              <img src="/icon.svg" style={{backgroundColor:"transparent",width:"40px"}}/>
+                              <img onClick={()=>{navigate("/about")}}  src="/icon.svg" style={{backgroundColor:"transparent",width:"40px", cursor:"pointer"}}/>
                             </div>
                         </div>
 
@@ -40,7 +42,7 @@ function Home() {
 
                             <div style={{backgroundColor:"transparent",display:"flex", alignItems:"center",justifyContent:"center",columnGap:"10px"}}>
                               <p style={{backgroundColor:"transparent",color:"white",fontSize:"20px"}}>Check my services</p>
-                              <img src="/icon.svg" style={{backgroundColor:"transparent",width:"40px"}}/>
+                              <img onClick={()=>{navigate("/services")}} src="/icon.svg" style={{backgroundColor:"transparent",width:"40px", cursor:"pointer"}}/>
                             </div>
                         </div>
 

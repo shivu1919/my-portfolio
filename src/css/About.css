@@ -1,0 +1,36 @@
+.about-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#about-first{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    column-gap: 70px;
+    row-gap: 10px;
+}
+
+#about-education{
+    background-color:  rgba(255, 255, 255, 0.13);
+    padding: 20px;
+    border-radius: 12px;
+    border: 0.8px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.about-heading{
+    background: transparent;
+}
+
+.about-subheading{
+    background: transparent;
+}
