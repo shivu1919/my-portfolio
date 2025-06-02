@@ -44,3 +44,16 @@
 .about-subheading{
     background: transparent;
 }
+
+
+#mypic2{
+    width: 350px;
+    border-radius: 50%;
+}
+
+
+@media screen and (max-width:750px) {
+    #mypic2{
+        width: 256px;
+    }
+}

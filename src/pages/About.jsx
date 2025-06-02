@@ -9,7 +9,7 @@ function About() {
 
             <div id="about-first">
                 <div>
-                   <img src="/mypic2.png" style={{borderRadius:"50%",width:"350px"}}/>
+                   <img id="mypic2" src="/mypic2.png" />
                 </div>
 
                 <div id="about-education">
