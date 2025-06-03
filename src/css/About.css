@@ -4,7 +4,9 @@
     row-gap: 30px;
     align-items: center;
     justify-content: center;
-
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 10px;
 }
 
 #about-first{
@@ -21,6 +23,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    padding:5px;
     justify-content: center;
     column-gap: 70px;
     row-gap: 10px;
@@ -49,6 +52,44 @@
 #mypic2{
     width: 350px;
     border-radius: 50%;
+}
+
+#about-third{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+#tech-stack-box{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+    align-items: center;
+    border: 0.8px solid white;
+    justify-content: center;
+    padding: 15px; 
+}
+
+
+
+#tech-btn{
+    height: 42px;
+    width:fit-content;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
 }
 
 

@@ -36,16 +36,11 @@ li{
     border-radius: 10px;  
 }
 
-.link-tag:active{
-    background-color: rgba(255, 0, 0);
+a.active{
+     background-color: rgba(255, 0, 0);
+     color: white;
 }
 
-
-.link-tag:hover{
-    color:white;
-    background-color: rgba(255, 0, 0);
-    font-weight: 600;
-}
 
 
 @media screen and (max-width:750px){

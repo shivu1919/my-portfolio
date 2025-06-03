@@ -71,6 +71,69 @@ function About() {
            
             </div>
 
+            <div id="about-third">
+                  <h1 style={{color:"white"}}>Technical skill set</h1>
+                  
+                  <div id="tech-stack-box">
+                      <h1>Backend</h1>
+                      <div style={{display:"flex",flexWrap:"wrap",alignItems:"center",justifyContent:"center",rowGap:"10px",columnGap:"10px"}}>
+                      <button id="tech-btn">Java</button>
+                      <button id="tech-btn">Spring Boot</button>
+                      <button id="tech-btn">Spring Data JPA</button>
+                      <button id="tech-btn">Spring Web MVC</button>
+                      <button id="tech-btn">Hibernate</button>
+                      </div>
+
+                  </div>
+
+                  <div id="tech-stack-box">
+                      <h1>Frontend</h1>
+                      <div style={{display:"flex",flexWrap:"wrap",alignItems:"center",justifyContent:"center",rowGap:"10px",columnGap:"10px"}}>
+                      <button id="tech-btn">React</button>
+                      <button id="tech-btn">Angular</button>
+                      <button id="tech-btn">HTML 5</button>
+                      <button id="tech-btn">CSS 3</button>
+                      <button id="tech-btn">Javascript</button>
+                      <button id="tech-btn">Typescript</button>
+                      <button id="tech-btn">Bootstrap</button>
+                      <button id="tech-btn">Tailwind CSS</button>
+                      </div>
+
+                  </div>
+
+                    <div id="tech-stack-box">
+                      <h1>Databases</h1>
+                      <div style={{display:"flex",flexWrap:"wrap",alignItems:"center",justifyContent:"center",rowGap:"10px",columnGap:"10px"}}>
+                      <button id="tech-btn">MySQL</button>
+                      <button id="tech-btn">Oracle</button>
+                      <button id="tech-btn">MongoDB</button>
+                      </div>
+
+                  </div>
+
+                  <div id="tech-stack-box">
+                      <h1>Tools</h1>
+                      <div style={{display:"flex",flexWrap:"wrap",alignItems:"center",justifyContent:"center",rowGap:"10px",columnGap:"10px"}}>
+                      <button id="tech-btn">Git</button>
+                      <button id="tech-btn">Github</button>
+                      <button id="tech-btn">Maven</button>
+                      <button id="tech-btn">Docker</button>
+                      <button id="tech-btn">Postman</button>
+                      <button id="tech-btn">Swagger</button>
+                      </div>
+
+                  </div>
+                  <div id="tech-stack-box">
+                      <h1>Architecture</h1>
+                      <div style={{display:"flex",flexWrap:"wrap",alignItems:"center",justifyContent:"center",rowGap:"10px",columnGap:"10px"}}>
+                      <button id="tech-btn">Microservices</button>
+                      <button id="tech-btn">Monolithic</button>
+                      <button id="tech-btn">MVC</button>
+                      </div>
+
+                  </div>
+            </div>
+
         </div>
     </>
   )

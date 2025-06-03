@@ -1,0 +1,51 @@
+#services-container{
+    display: flex;
+    padding: 2px;
+    row-gap: 10px;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;  
+}
+
+#services-first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#services-second{
+    display: flex;
+    padding: 2px;
+    align-items: center;
+    justify-content:center ;
+    row-gap: 10px;
+    column-gap: 10px;
+    flex-wrap: wrap;
+}
+
+.service{
+    width:300px;
+    height:300px;
+    border:0.8px solid white;
+    display: flex;
+    flex-direction: column;
+    
+    row-gap: 20px;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 12px;
+}
+
+.service-btn{
+    height: 40px;
+    width: 90%;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
