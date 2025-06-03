@@ -1,5 +1,6 @@
 .contact-container{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     row-gap: 20px;
     column-gap: 30px;
@@ -9,6 +10,7 @@
 
 #contact-details{
     display: flex;
+    flex-wrap:wrap;
     border: 0.8px solid white;
     padding: 40px;
     flex-direction: column;
