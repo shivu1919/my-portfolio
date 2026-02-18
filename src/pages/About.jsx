@@ -43,12 +43,6 @@ function About() {
                     <p>Oct 2021 - Present</p>
                 </div>
 
-              <div style={{border:"0.8px solid white",width:"385px",height:"142px",padding:"20px",color:"white"}}>
-                    <h1>Java Full Stack trainer</h1>
-                    <h2>Naresh IT</h2>
-                    <p>Nov 2024 - Present</p>
-                </div>
-
                 <div style={{border:"0.8px solid white",width:"385px",height:"142px",padding:"20px",color:"white"}}>
                     <h1>Senior Software Engineer</h1>
                     <h2>ThingMZing Zee(Group)</h2>
